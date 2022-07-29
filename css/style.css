@@ -1,0 +1,40 @@
+.card:hover{
+  
+  transform: scale(1.1); 
+}
+
+.card{
+    transition: transform .21s;
+}
+
+a{
+    color: black;
+}
+
+.card-title{
+  font-family: 'Oswald', sans-serif;
+  font-size:xx-large;
+}
+
+
+@media (max-width: 1024px) {
+  .category-container {
+    background-attachment: scroll;
+  }
+}
+
+.table-profile-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
